@@ -93,3 +93,52 @@ body {
   color: #E5E7EB;
   font-size: 18px;
 }
+
+.gallery {
+  display: flex;
+  justify-content: center;
+}
+
+.gallery-wrapper {
+  display: flex;
+  align-items: stretch;
+  flex-direction: column;
+  flex: 0 1 1000px;
+}
+
+.gallery-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 36px;
+  color: #1F2937;
+  font-weight: bolder;
+  margin: 50px;
+}
+
+.gallery-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 50px;
+  margin-bottom: 100px;
+}
+
+.gallery-item {
+  flex: 0 0 ;
+}
+
+.gallery-image {
+  width: 160px;
+  height: 160px;
+  border-color:#3882F6;
+  border-style: solid;
+  border-width: 4px;
+  border-radius: 20px;
+}
+
+.gallery-content p {
+  text-align: center;
+  font-size: 18px;
+  color: #1F2937;
+}
